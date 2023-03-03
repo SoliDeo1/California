@@ -1,0 +1,82 @@
+main {
+  background-color: #F5F5F5;
+}
+
+main .main-banner {
+  background-color: #DCE5E2;
+  border-radius: 20px;
+  display: flex;
+}
+
+.main-banner-text {
+  display: block;
+  margin: auto;
+  padding-left: 56px;
+}
+
+main .container .main-banner-text a {
+  border: solid black 1px;
+  padding: 14px 53px;
+  border-radius: 50px;
+}
+
+main .main-banner-text h1 {
+  padding-bottom: 19px;
+}
+
+main .main-banner-text p {
+  padding-bottom: 32px;
+}
+
+.second-sect {
+  text-align: center;
+  max-width: 780px;
+}
+
+.latest-offers-sect {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.lapt-art {
+  margin-bottom: 60px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  text-align: end;
+}
+
+.lapt-watch-cont {
+  padding-right: 16px;
+  max-width: 639px;
+}
+
+.watch-block {
+  display: flex;
+}
+
+.watch-art {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+
+.iphone-sect {
+  background-color: #FFFFFF;
+  max-width: 312px;
+  border-radius: 30px;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.iphone-sect img {
+  width: 100%;
+}
+
+.ipad-sect {
+  background-color: #FFFFFF;
+  max-width: 312px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
