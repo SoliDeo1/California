@@ -23,9 +23,14 @@ main .main-banner-text p{
   padding-bottom: 32px;
 }
 .second-sect{
-  text-align: center;
   max-width: 780px;
+  text-align: center;
+  margin: auto;
 }
+
+//--Latest offers sect--
+
+
 .latest-offers-sect{
   display: flex;
   padding-bottom: 100px;
@@ -38,7 +43,6 @@ main .main-banner-text p{
 }
 .lapt-watch-cont{
   padding-right: 16px;
-  max-width: 639px;
 }
 .watch-block{
   display: flex;
@@ -50,18 +54,95 @@ main .main-banner-text p{
 }
 .iphone-sect{
   background-color: #FFFFFF;
-  max-width: 312px;
   border-radius: 30px;
   text-align: center;
   margin-right: 16px;
 }
-.iphone-sect img{
-  width: 100%
-}
+
 .ipad-sect{
   background-color: #FFFFFF;
-  max-width: 312px;
   border-radius: 30px;
   text-align: center;
+}
 
+
+//--Save sect--
+
+.save-sect-top{
+  text-align: center;
+  margin: auto;
+  h3{
+    padding-bottom: 9px;
+  }
+}
+.save-sect-top p{
+  padding-bottom: 59px;
+}
+.save-sect{
+  display: flex;
+  a img{
+    padding-bottom: 37px;
+  }
+}
+.save-sect-art{
+  max-width: 261px;
+  margin-left: 70px;
+  p{
+    margin-bottom: 9px;
+  }
+}
+
+//--Best around sect--
+
+
+.best-around-section{
+  background-color: #FFFFFF;
+}
+.best-around-top{
+  max-width: 529px;
+  text-align: center;
+  margin: auto;
+}
+.best-around-main-cont{
+  display: flex;
+  justify-content: space-between;
+}
+.best-around-art{
+  border-radius: 30px;
+  width: 413px;
+  max-width: 413px;
+  background-color: #F8F9FA;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  article{
+    align-items: center;
+  }
+  span{
+    display: block;
+    padding-top: 41px;
+  }
+  h3{
+    display: block;
+    padding-bottom: 30px;
+  }
+  a{
+    display: block;
+    border: 1px solid black;
+    border-radius: 30px;
+    max-width: 190px;
+  }
+  image{
+    display: block;
+  }
+}
+.btn-product{
+  width: 100%;
+}
+.best-around-section .best-around-top h3{
+  padding-top: 54px;
+  padding-bottom: 9px;
+}
+.best-around-section .best-around-top p{
+  padding-bottom: 56px;
 }

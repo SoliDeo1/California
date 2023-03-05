@@ -29,8 +29,9 @@ main .main-banner-text p {
 }
 
 .second-sect {
-  text-align: center;
   max-width: 780px;
+  text-align: center;
+  margin: auto;
 }
 
 .latest-offers-sect {
@@ -47,7 +48,6 @@ main .main-banner-text p {
 
 .lapt-watch-cont {
   padding-right: 16px;
-  max-width: 639px;
 }
 
 .watch-block {
@@ -62,21 +62,100 @@ main .main-banner-text p {
 
 .iphone-sect {
   background-color: #FFFFFF;
-  max-width: 312px;
   border-radius: 30px;
   text-align: center;
   margin-right: 16px;
 }
 
-.iphone-sect img {
+.ipad-sect {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.save-sect-top {
+  text-align: center;
+  margin: auto;
+}
+.save-sect-top h3 {
+  padding-bottom: 9px;
+}
+
+.save-sect-top p {
+  padding-bottom: 59px;
+}
+
+.save-sect {
+  display: flex;
+}
+.save-sect a img {
+  padding-bottom: 37px;
+}
+
+.save-sect-art {
+  max-width: 261px;
+  margin-left: 70px;
+}
+.save-sect-art p {
+  margin-bottom: 9px;
+}
+
+.best-around-section {
+  background-color: #FFFFFF;
+}
+
+.best-around-top {
+  max-width: 529px;
+  text-align: center;
+  margin: auto;
+}
+
+.best-around-main-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.best-around-art {
+  border-radius: 30px;
+  width: 413px;
+  max-width: 413px;
+  background-color: #F8F9FA;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+.best-around-art article {
+  align-items: center;
+}
+.best-around-art span {
+  display: block;
+  padding-top: 41px;
+}
+.best-around-art h3 {
+  display: block;
+  padding-bottom: 30px;
+}
+.best-around-art a {
+  display: block;
+  border: 1px solid black;
+  border-radius: 30px;
+  max-width: 190px;
+}
+.best-around-art image {
+  display: block;
+}
+
+.btn-product {
   width: 100%;
 }
 
-.ipad-sect {
-  background-color: #FFFFFF;
-  max-width: 312px;
-  border-radius: 30px;
-  text-align: center;
+.best-around-section .best-around-top h3 {
+  padding-top: 54px;
+  padding-bottom: 9px;
+}
+
+.best-around-section .best-around-top p {
+  padding-bottom: 56px;
 }
 
 /*# sourceMappingURL=main.css.map */
